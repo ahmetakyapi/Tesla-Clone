@@ -1,3 +1,3 @@
 ### React Tesla Clone
 
-Demo: tesla-clone-ahmetakyapi.vercel.app
+Demo: https://tesla-clone-ahmetakyapi.vercel.app
