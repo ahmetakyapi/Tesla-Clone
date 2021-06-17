@@ -4,24 +4,27 @@
     position: fixed;
     width: 99vw;
     top:0;
-    margin: 15px;
+    margin: 10px;
     z-index: 100;
 }
 
 .header-logo {
     width: 100px;
-    height: 24px;
+    height: 25px;
     margin-top: 7px;
+    margin-left: 1.5%;
 }
 
 .header-center {
     flex: 1;
     display: flex;
     justify-content: center;
+    font-size: 13px;
+    margin-left: 3%;
 }
 
 .header-center>p {
-    margin: 10px;
+    margin: 12px;
     text-transform: uppercase;
 }
 
@@ -29,6 +32,8 @@
     display: flex;
     justify-content: flex-end;
     text-transform: uppercase;
+    font-size: 13px;
+    margin-right: 2%;
 }
 
 .header-right>p {

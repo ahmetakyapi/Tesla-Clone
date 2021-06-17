@@ -6,6 +6,7 @@
     background-size: cover;
     display: flex;
     justify-content: center;
+    scroll-snap-align: start;
 }
 
 .item-container {
@@ -17,19 +18,25 @@
 
 .item-text{
     margin-top: 20%;
+    margin-left: 1%;
     display: flex;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 40px;
     color: #393c41;
     align-items: center;
     flex: 1;
 }
 
 .itemDesc{
-    font-weight: 300;
-    font-size: 15px;
+    display: inline-flex;
+    font-weight: 200;
+    color: lightslategray;
+    font-size: 14px;
 }
-
+.itemDesc>div {
+    padding-left: 5px;
+    text-decoration: underline;
+}
 .item-lowerThird{
     margin-bottom: 5%;
     display: flex;
@@ -45,5 +52,6 @@
     width: 100%;
     margin-top: 3%;
     justify-content: center;
+    text-align: center;
 }
 

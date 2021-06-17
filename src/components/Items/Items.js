@@ -1,10 +1,10 @@
 // import { findAllByTitle} from '@testing-library/react'
 import React from 'react'
-import Button from './Button'
+import Button from '../Button/Button'
 import './Items.css'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-const Item = ({title,desc,backgroundImg,leftBtnTxt,leftBtnLink,rightBtnTxt,rightBtnLink,twoButtons,first}) => {
+const Item = ({title,desc,desc2,backgroundImg,leftBtnTxt,leftBtnLink,rightBtnTxt,rightBtnLink,twoButtons,first}) => {
     return (
         <div className='item' style={{
             backgroundImage: `url(${backgroundImg})`
@@ -14,6 +14,7 @@ const Item = ({title,desc,backgroundImg,leftBtnTxt,leftBtnLink,rightBtnTxt,right
                     <p>{title}</p>
                     <div className="itemDesc">
                         <p>{desc}</p>
+                        <div>{desc2}</div>
                     </div>
                 </div>
                 <div className="item-lowerThird">

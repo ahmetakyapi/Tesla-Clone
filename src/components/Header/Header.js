@@ -15,7 +15,7 @@ const Header = () => {
                 <p>Model X</p>
                 <p>Model Y</p>
                 <p>Solar Roof</p>
-                <p>Solar Panel</p>
+                <p>Solar Panels</p>
             </div>
 
             <div className="header-right">

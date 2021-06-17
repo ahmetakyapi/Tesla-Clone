@@ -1,9 +1,9 @@
 import Header from "./components/Header/Header";
 import Items from "./components/Items/Items";
 import Accessories from './assets/Desktop-Accessories.jpg'
-import ModelS from './assets/Desktop-ModelS.jpeg'
+import ModelS from './assets/Desktop-ModelS.jpg'
 import Model3 from './assets/Desktop-Model3.jpeg'
-import ModelX from './assets/Desktop-ModelX.jpeg'
+import ModelX from './assets/Desktop-ModelX.jpg'
 import ModelY from './assets/Desktop-ModelY.jpeg'
 import SolarPanels from './assets/Desktop-SolarPanels.jpeg'
 import SolarRoof from './assets/Desktop-SolarRoof.jpeg'
@@ -16,7 +16,8 @@ function App() {
         <div className="app-itemsContainer">
             <Items
                 title = 'Model S'
-                desc = 'Order Online for Touchless Delivery'
+                desc = 'Order Online for'
+                desc2 = 'Touchless Delivery'
                 descLink= ''
                 backgroundImg={ModelS}
                 leftBtnTxt='CUSTOM ORDER'
@@ -24,10 +25,12 @@ function App() {
                 rightBtnTxt='EXISTING INVENTORY'
                 rightBtnLink='true'
                 twoButtons='true'
+                first
             />
           <Items
               title = 'Model Y'
-              desc = 'Order Online for Touchless Delivery'
+              desc = 'Order Online for'
+              desc2='Touchless Delivery'
               descLink= ''
               backgroundImg={ModelY}
               leftBtnTxt='CUSTOM ORDER'
@@ -35,10 +38,12 @@ function App() {
               rightBtnTxt='EXISTING INVENTORY'
               rightBtnLink='true'
               twoButtons='true'
+              first
           />
             <Items
                 title = 'Model 3'
-                desc = 'Order Online for Touchless Delivery'
+                desc = 'Order Online for'
+                desc2= 'Touchless Delivery'
                 descLink= ''
                 backgroundImg={Model3}
                 leftBtnTxt='CUSTOM ORDER'
@@ -46,10 +51,12 @@ function App() {
                 rightBtnTxt='EXISTING INVENTORY'
                 rightBtnLink='true'
                 twoButtons='true'
+                first
             />
             <Items
                 title = 'Model X'
-                desc = 'Order Online for Touchless Delivery'
+                desc = 'Order Online for'
+                desc2= 'Touchless Delivery'
                 descLink= ''
                 backgroundImg={ModelX}
                 leftBtnTxt='Custom Order'
@@ -57,6 +64,7 @@ function App() {
                 rightBtnTxt='EXISTING INVENTORY'
                 rightBtnLink='true'
                 twoButtons='true'
+                first
             />
 
           <Items
@@ -68,7 +76,7 @@ function App() {
               leftBtnLink=''
               rightBtnTxt='LEARN MORE'
               rightBtnLink='true'
-              first
+              twoButtons='true'
           />
             <Items
                 title = 'Solar For New Roofs'

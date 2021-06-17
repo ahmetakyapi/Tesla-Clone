@@ -1,0 +1,8 @@
+.app-itemsContainer{
+    scroll-snap-type: y proximity;
+    overflow: auto;
+    height: 100vh;
+}
+.first {
+    text-align: center;
+}
