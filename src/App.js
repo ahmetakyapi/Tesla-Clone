@@ -14,69 +14,70 @@ function App() {
     <div className="App">
         <Header />
         <div className="app-itemsContainer">
-          <Items
-          title = 'Lowest Cost Solar Panels in America'
-          desc = 'Money-back guarantee'
-          descLink= ''
-          backgroundImg={SolarPanels}
-          leftBtnTxt='Order Now'
-          leftBtnLink=''
-          rightBtnTxt='Learn More'
-          rightBtnLink='true'
-          first
-          />
             <Items
                 title = 'Model S'
-                desc = '$69.420'
+                desc = 'Order Online for Touchless Delivery'
                 descLink= ''
                 backgroundImg={ModelS}
-                leftBtnTxt='Custom Order'
+                leftBtnTxt='CUSTOM ORDER'
                 leftBtnLink=''
-                rightBtnTxt='Learn More'
+                rightBtnTxt='EXISTING INVENTORY'
                 rightBtnLink='true'
                 twoButtons='true'
             />
+          <Items
+              title = 'Model Y'
+              desc = 'Order Online for Touchless Delivery'
+              descLink= ''
+              backgroundImg={ModelY}
+              leftBtnTxt='CUSTOM ORDER'
+              leftBtnLink=''
+              rightBtnTxt='EXISTING INVENTORY'
+              rightBtnLink='true'
+              twoButtons='true'
+          />
             <Items
                 title = 'Model 3'
-                desc = 'Money Back Guarantee'
+                desc = 'Order Online for Touchless Delivery'
                 descLink= ''
                 backgroundImg={Model3}
-                leftBtnTxt='Custom Order'
+                leftBtnTxt='CUSTOM ORDER'
                 leftBtnLink=''
-                rightBtnTxt='Learn More'
+                rightBtnTxt='EXISTING INVENTORY'
                 rightBtnLink='true'
                 twoButtons='true'
             />
             <Items
                 title = 'Model X'
-                desc = 'Money Back Guarantee'
+                desc = 'Order Online for Touchless Delivery'
                 descLink= ''
                 backgroundImg={ModelX}
                 leftBtnTxt='Custom Order'
                 leftBtnLink=''
-                rightBtnTxt='Learn More'
+                rightBtnTxt='EXISTING INVENTORY'
                 rightBtnLink='true'
                 twoButtons='true'
             />
-            <Items
-                title = 'Model Y'
-                desc = 'Money Back Guarantee'
-                descLink= ''
-                backgroundImg={ModelY}
-                leftBtnTxt='Custom Order'
-                leftBtnLink=''
-                rightBtnTxt='Learn More'
-                rightBtnLink='true'
-                twoButtons='true'
-            />
+
+          <Items
+              title = 'Lowest Cost Solar Panels in America'
+              desc = 'Money-back guarantee'
+              descLink= ''
+              backgroundImg={SolarPanels}
+              leftBtnTxt='ORDER NOW'
+              leftBtnLink=''
+              rightBtnTxt='LEARN MORE'
+              rightBtnLink='true'
+              first
+          />
             <Items
                 title = 'Solar For New Roofs'
-                desc = 'Money Back Guarantee'
+                desc = 'Solar Roof Costs Less Than a New Roof Plus Solar Panels'
                 descLink= ''
                 backgroundImg={SolarRoof}
-                leftBtnTxt='Order Now'
+                leftBtnTxt='ORDER NOW'
                 leftBtnLink=''
-                rightBtnTxt='Learn More'
+                rightBtnTxt='LEARN MORE'
                 rightBtnLink='true'
                 twoButtons='true'
             />
@@ -85,7 +86,7 @@ function App() {
                 desc = 'Money Back Guarantee'
                 descLink= ''
                 backgroundImg={Accessories}
-                leftBtnTxt='Shop Now'
+                leftBtnTxt='SHOP NOW'
                 leftBtnLink=''
                 rightBtnTxt='Learn More'
                 rightBtnLink='true'
