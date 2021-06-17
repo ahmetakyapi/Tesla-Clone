@@ -8,6 +8,7 @@ import ModelY from './assets/Desktop-ModelY.jpeg'
 import SolarPanels from './assets/Desktop-SolarPanels.jpeg'
 import SolarRoof from './assets/Desktop-SolarRoof.jpeg'
 import './App.css';
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -91,14 +92,12 @@ function App() {
             />
             <Items
                 title = 'Accessories'
-                desc = 'Money Back Guarantee'
                 descLink= ''
                 backgroundImg={Accessories}
                 leftBtnTxt='SHOP NOW'
                 leftBtnLink=''
-                rightBtnTxt='Learn More'
-                rightBtnLink='true'
             />
+            <Footer/>
         </div>
     </div>
   );
