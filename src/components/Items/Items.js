@@ -26,7 +26,7 @@ const Item = ({title,desc,desc2,backgroundImg,leftBtnTxt,leftBtnLink,rightBtnTxt
                     </div>
                 {first && (
                 <div className="item-expand">
-                    <ExpandMoreIcon />
+                    <ExpandMoreIcon/>
                 </div>
                 )}
             </div>
