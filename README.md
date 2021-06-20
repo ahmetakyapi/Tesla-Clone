@@ -1,4 +1,4 @@
-### React Tesla Clone
+### React Tesla Homepage Clone
 
 Tesla homepage clone with React.
 
