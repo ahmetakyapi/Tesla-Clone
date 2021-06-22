@@ -21,7 +21,7 @@ const Header = () => {
             <div className="header-right">
                 <p>Shop</p>
                 <p>Account</p>
-                <p>Menu</p>
+                <span>Menu</span>
             </div>
         </div>
 

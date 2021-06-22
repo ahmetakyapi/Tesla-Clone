@@ -49,3 +49,40 @@
 .header-right>p {
     margin: 12px;
 }
+.header-right>span {
+    margin: 12px;
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        display: flex;
+        background-color: transparent;;
+        position: fixed;
+        width: 99vw;
+        margin: 11px;
+    }
+
+    .header-logo {
+        width: 100px;
+        height: 25px;
+        margin-top: 5px;
+        margin-left: 1rem;
+    }
+    .header-logo:hover {
+        background-color: lightsteelblue;
+        border-radius: 20px;
+        transition: color .5s;
+    }
+
+    .header-center {
+        display: none;
+    }
+    .header-right>p {
+        display: none;
+    }
+    .header-right>span {
+        padding-left: 11rem;
+        color: darkslategray;
+        font-weight: 500;
+    }
+}

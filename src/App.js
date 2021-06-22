@@ -60,7 +60,7 @@ function App() {
                 desc2= 'Touchless Delivery'
                 descLink= ''
                 backgroundImg={ModelX}
-                leftBtnTxt='Custom Order'
+                leftBtnTxt='CUSTOM ORDER'
                 leftBtnLink=''
                 rightBtnTxt='EXISTING INVENTORY'
                 rightBtnLink='true'
@@ -69,8 +69,8 @@ function App() {
             />
 
           <Items
-              title = 'Lowest Cost Solar Panels in America'
-              desc = 'Money-back guarantee'
+              title = 'Solar Panels'
+              desc = 'Lowest Cost Solar Panels in America'
               descLink= ''
               backgroundImg={SolarPanels}
               leftBtnTxt='ORDER NOW'
@@ -80,8 +80,8 @@ function App() {
               twoButtons='true'
           />
             <Items
-                title = 'Solar For New Roofs'
-                desc = 'Solar Roof Costs Less Than a New Roof Plus Solar Panels'
+                title = 'Solar Roof'
+                desc = 'Produce Clean Energy From Your Roof'
                 descLink= ''
                 backgroundImg={SolarRoof}
                 leftBtnTxt='ORDER NOW'
